@@ -1,0 +1,83 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f5f7fa;
+    height: 70vh;
+    width: 40vw;
+    /* Add background image if required */
+    background-size: cover;
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.dashboard-title {
+    font-size: 2rem;
+    color: #6d8ac7;
+    margin-bottom: 1.5rem;
+}
+
+.student-form, .student-info {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #6d8ac7;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.submit-button, .edit-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #6d8ac7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.info-item {
+    background-color: #f0f4f8;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    color: #6d8ac7;
+    margin-bottom: 1rem;
+    text-align: center;
+}
